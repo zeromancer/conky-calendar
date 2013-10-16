@@ -1,7 +1,7 @@
 
 # conky-calendar #
 
-![screenshot1](https://raw.github.com/zeromancer/mangawatcher/master/screenshots/3.png)
+![screenshot1](https://raw.github.com/zeromancer/conky-calendar/master/screenshots/1.png)
 
 
 ## Description ##
@@ -20,19 +20,25 @@ Intended to be used in [conky](http://conky.sourceforge.net/).
 ## Usage ##
 
 Compile & run (in terminal):
+	```
 	make && ./conky-calendar headline && ./conky-calendar before && ./conky-calendar now && ./conky-calendar after
+	```
 
 Add to Conky:
+```
 	${execi 600 /path/to/conky-calendar/conky-calendar before}${color tan2}${execi 3600 /path/to/conky-calendar/conky-calendar now}${color white}${execi 3600 /path/to/conky-calendar/conky-calendar after}
-
+```
 
 ## Customisation ##
 
 change conky-calendar.vala, near line 36:
+```
 	string left_margin = "   ";
+```
 to (example)
+```
 	string left_margin = "        ";
-
+```
 
 ## Authors ##
  * David Siewert (david /zero siewert /at gmail /dot com)
@@ -54,21 +60,3 @@ You should have received a copy of the GNU General Public License along with thi
 **Icons:**
  * License: [Creative Commons Attribution-NoDerivs](http://creativecommons.org/licenses/by-nd/3.0/)
  * Link: [icons8.com](http://icons8.com/)
-
-
-## Screenshots ##
-
-![screenshot1](https://raw.github.com/zeromancer/mangawatcher/master/screenshots/1.png)
-
-![screenshot2](https://raw.github.com/zeromancer/mangawatcher/master/screenshots/2.png)
-
-![screenshot3](https://raw.github.com/zeromancer/mangawatcher/master/screenshots/3.png)
-
-![screenshot4](https://raw.github.com/zeromancer/mangawatcher/master/screenshots/4.png)
-
-![screenshot5](https://raw.github.com/zeromancer/mangawatcher/master/screenshots/5.png)
-
-![screenshot6](https://raw.github.com/zeromancer/mangawatcher/master/screenshots/6.png)
-
-![screenshot7](https://raw.github.com/zeromancer/mangawatcher/master/screenshots/7.png)
-
