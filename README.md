@@ -20,13 +20,13 @@ Intended to be used in [conky](http://conky.sourceforge.net/).
 ## Usage ##
 
 Compile & run (in terminal):
-	```
-	make && ./conky-calendar headline && ./conky-calendar before && ./conky-calendar now && ./conky-calendar after
-	```
+```
+make && ./conky-calendar headline && ./conky-calendar before && ./conky-calendar now && ./conky-calendar after
+```
 
 Add to Conky:
 ```
-	${execi 600 /path/to/conky-calendar/conky-calendar before}${color tan2}${execi 3600 /path/to/conky-calendar/conky-calendar now}${color white}${execi 3600 /path/to/conky-calendar/conky-calendar after}
+${execi 600 /path/to/conky-calendar/conky-calendar before}${color tan2}${execi 3600 /path/to/conky-calendar/conky-calendar now}${color white}${execi 3600 /path/to/conky-calendar/conky-calendar after}
 ```
 
 ## Customisation ##
