@@ -3,11 +3,11 @@
 
 ![screenshot1](https://raw.github.com/zeromancer/conky-calendar/master/screenshots/1.png)
 
-
-## Description ##
-
 Conky-Calendar prints a calendar with left margin spacing.
+
 Intended to be used in [conky](http://conky.sourceforge.net/).
+
+Written in [vala](https://wiki.gnome.org/Vala)
 
 
 ## Requirements ##
