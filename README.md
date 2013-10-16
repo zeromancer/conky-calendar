@@ -37,6 +37,7 @@ to (example)
 ```
 	string left_margin = "        ";
 ```
+recompile
 
 ## Authors ##
  * David Siewert (david /zero siewert /at gmail /dot com)
