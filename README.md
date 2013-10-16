@@ -24,7 +24,7 @@ make && ./conky-calendar headline && ./conky-calendar before && ./conky-calendar
 
 Add to Conky:
 ```
-${execi 600 /path/to/conky-calendar/conky-calendar before}${color tan2}${execi 3600 /path/to/conky-calendar/conky-calendar now}${color white}${execi 3600 /path/to/conky-calendar/conky-calendar after}
+${execi 600 /path/to/conky-calendar/conky-calendar before}${color tan2}${execi 600 /path/to/conky-calendar/conky-calendar now}${color white}${execi 600 /path/to/conky-calendar/conky-calendar after}
 ```
 
 ## Customisation ##
