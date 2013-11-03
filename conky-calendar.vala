@@ -33,18 +33,18 @@ public static int return_result(string output){
 
 int main (string[] args) {
 	
-	string left_margin = "   ";
+	string left_margin = "  ";
 	
 	if("headline" in args)
 		return headline(left_margin);
 	
-	string result = "\n";
+	string result = "";
 	
 	var now = new DateTime.now_local();
 	
 	int day_of_week = now.get_day_of_week();
 	int day_of_month = now.get_day_of_month();
-	int number_days = get_number_of_days(now.get_year(),now.get_month());
+	int number_days = get_number_of_days(now.get_year(),now.get_month()-1);
 	//print("%d , %d, %d\n",day_of_month,day_of_week,number_days);
 	
 	int j = day_of_month;

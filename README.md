@@ -27,6 +27,7 @@ Add to Conky:
 ${execi 600 /path/to/conky-calendar/conky-calendar before}${color tan2}${execi 600 /path/to/conky-calendar/conky-calendar now}${color white}${execi 600 /path/to/conky-calendar/conky-calendar after}
 ```
 
+
 ## Customisation ##
 
 change conky-calendar.vala, near line 36:
@@ -38,6 +39,7 @@ to (example)
 	string left_margin = "        ";
 ```
 recompile
+
 
 ## Authors ##
  * David Siewert (david /zero siewert /at gmail /dot com)
